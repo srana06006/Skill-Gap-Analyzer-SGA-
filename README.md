@@ -65,18 +65,30 @@ The platform not only highlights skill mismatches but also recommends personaliz
 ## ⚙️ Installation
 
 ### 1️⃣ Clone the Repository
-```bash
 git clone https://github.com/srana06006/skill-gap-analyzer.git
 cd skill-gap-analyzer
 
---
-## Create and Activate Virtual Environment
-```bash
+### 2️⃣ Create and Activate Virtual Environment
 python -m venv venv
 source venv/bin/activate     # on macOS/Linux
 venv\Scripts\activate        # on Windows
 
-## Install Dependencies
+### 3️⃣ Install Dependencies
+pip install -r requirements.txt
+
+### 4️⃣ Set Up Environment Variables
+Create a .env file in the root directory:
+
+RAPIDAPI_KEY=your_rapidapi_key
+ONET_API_USER=your_onet_username
+ONET_API_PASS=your_onet_password
+
+### 5️⃣ Run the Flask Application
+export FLASK_APP=app.py
+flask run
+
+Access it at: http://127.0.0.1:5000/
+
 
 
 
