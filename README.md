@@ -89,6 +89,15 @@ flask run
 
 Access it at: http://127.0.0.1:5000/
 
+---
+
+## 🧠 Example Usage
+
+**Step 1:** Upload or parse candidate résumés.  
+**Step 2:** Match them against relevant job descriptions.  
+**Step 3:** Visualize top missing skills and get recommended courses.  
+**Step 4:** Use `/live-intelligence` for up-to-date market skill demand.
+
 
 
 
