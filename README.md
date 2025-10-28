@@ -65,39 +65,36 @@ The platform not only highlights skill mismatches but also recommends personaliz
 ## ⚙️ Installation
 
 ### 1️⃣ Clone the Repository
-git clone https://github.com/srana06006/skill-gap-analyzer.git
-cd skill-gap-analyzer
+git clone https://github.com/srana06006/skill-gap-analyzer.git  
+cd skill-gap-analyzer  
 
 ### 2️⃣ Create and Activate Virtual Environment
-python -m venv venv
-source venv/bin/activate     # on macOS/Linux
-venv\Scripts\activate        # on Windows
+python -m venv venv  
+source venv/bin/activate     # on macOS/Linux  
+venv\Scripts\activate        # on Windows  
 
 ### 3️⃣ Install Dependencies
-pip install -r requirements.txt
+pip install -r requirements.txt  
 
 ### 4️⃣ Set Up Environment Variables
-Create a .env file in the root directory:
+Create a .env file in the root directory and add the following lines:  
 
-RAPIDAPI_KEY=your_rapidapi_key
-ONET_API_USER=your_onet_username
-ONET_API_PASS=your_onet_password
+RAPIDAPI_KEY=your_rapidapi_key  
+ONET_API_USER=your_onet_username  
+ONET_API_PASS=your_onet_password  
 
 ### 5️⃣ Run the Flask Application
-export FLASK_APP=app.py
-flask run
+export FLASK_APP=app.py  
+flask run  
 
-Access it at: http://127.0.0.1:5000/
+Access it at: http://127.0.0.1:5000/  
 
 ---
 
 ## 🧠 Example Usage
 
-**Step 1:** Upload or parse candidate résumés.  
-**Step 2:** Match them against relevant job descriptions.  
-**Step 3:** Visualize top missing skills and get recommended courses.  
-**Step 4:** Use `/live-intelligence` for up-to-date market skill demand.
-
-
-
+Step 1: Upload or parse candidate résumés.  
+Step 2: Match them against relevant job descriptions.  
+Step 3: Visualize top missing skills and get recommended courses.  
+Step 4: Use /live-intelligence for up-to-date market skill demand.
 
