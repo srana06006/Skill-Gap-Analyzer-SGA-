@@ -35,3 +35,48 @@ The platform not only highlights skill mismatches but also recommends personaliz
 ## 🧩 System Architecture
 
 
+---
+
+## 💻 Technology Stack
+
+| Layer | Technologies |
+|-------|---------------|
+| **Backend** | Python (Flask API), Pandas, NumPy |
+| **NLP/ML** | spaCy, scikit-learn, TF-IDF, Cosine Similarity |
+| **Frontend** | HTML, JavaScript, Chart.js (Dashboard) |
+| **Integration** | O*NET and LinkedIn APIs for real-time skill and occupation mapping |
+| **Deployment** | Gunicorn + Flask (Cloud / Docker-ready) |
+
+---
+
+## 📊 Dashboard Features
+
+- Displays **total candidate-job pairs analyzed**
+- Shows **average missing skills per profile**
+- Highlights **Top 10 skill gaps**
+- Offers access to additional modules:
+  - `/live-intelligence` → Real-time labor market trends  
+  - `/skill-comparison` → Compare résumé vs. market skills  
+  - `/career-coach` → Personalized course recommendations  
+  - `/upskilling-pathway` → Visual learning progression
+
+---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/srana06006/skill-gap-analyzer.git
+cd skill-gap-analyzer
+
+--
+## Create and Activate Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate     # on macOS/Linux
+venv\Scripts\activate        # on Windows
+
+## Install Dependencies
+
+
+
