@@ -1,0 +1,1 @@
+fetch('/api/dashboard').then(r=>r.json()).then(d=>{document.getElementById('num_records').textContent=d.num_records;document.getElementById('avg_missing').textContent=d.avg_missing;(d.top_missing||[]).forEach(x=>{const li=document.createElement('li');li.textContent=`${x.skill} — ${x.count}`;document.getElementById('top_missing').appendChild(li);});});
